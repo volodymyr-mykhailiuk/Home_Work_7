@@ -100,7 +100,6 @@ summ = 0
 for row in MATRIX:
     print(row)
 
-    tmp = row[:]
-    summ += sum(tmp)
+    summ += sum(row)
 
 print("Sum of matrix is", summ)
